@@ -1,0 +1,9 @@
+== Description
+Source code for https://adventofcode.com[Advent of Code 2021]
+
+== Usage
+=== Run all tasks
+[source, bash]
+----
+./gradlew run
+----
