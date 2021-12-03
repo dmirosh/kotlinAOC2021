@@ -4,6 +4,8 @@ import com.dmirosh.aoc2021.day1.task1.Day1Task1
 import com.dmirosh.aoc2021.day1.task2.Day1Task2
 import com.dmirosh.aoc2021.day2.task1.Day2Task1
 import com.dmirosh.aoc2021.day2.task2.Day2Task2
+import com.dmirosh.aoc2021.day3.task1.Day3Task1
+import com.dmirosh.aoc2021.day3.task2.Day3Task2
 import com.dmirosh.aoc2021.util.Task
 import com.dmirosh.aoc2021.util.TestFailedException
 import kotlin.system.exitProcess
@@ -13,7 +15,9 @@ object Main {
         Day1Task1(),
         Day1Task2(),
         Day2Task1(),
-        Day2Task2()
+        Day2Task2(),
+        Day3Task1(),
+        Day3Task2()
     )
 
     @JvmStatic
