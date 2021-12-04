@@ -7,9 +7,9 @@ import kotlin.reflect.KClass
 
 object FileUtils {
     fun String.readLines(fileName: String): Sequence<String> {
-        val input = FileUtils::class.java.classLoader.getResource("$this/$fileName")
+        val path = "$this/$fileName"
+        val input = FileUtils::class.java.classLoader.getResource(path) ?: error("Can't find resource '$path'")
         return Files.readAllLines(Path.of(input.toURI())).asSequence()
-            .filter { it.isNotBlank() }
     }
 
     fun defaultResourcesDirForClass(clazz: KClass<*>): String {
