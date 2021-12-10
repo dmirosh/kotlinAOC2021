@@ -4,13 +4,8 @@ import com.dmirosh.aoc2021.day4.BingoSystem.Companion.readBingoSystem
 import com.dmirosh.aoc2021.day4.BingoSystem.Companion.readInputNumbers
 import com.dmirosh.aoc2021.util.Task
 
-fun main() {
-    Day4Task1().solve()
-}
-
 class Day4Task1(
-    name: String = "Day 4 task 1",
-    testsConfig: Map<String, Int> = mapOf(
+    name: String = "Day 4 task 1", testsConfig: Map<String, Int> = mapOf(
         "test1.txt" to 4512
     )
 ) : Task<Int>(name = name, testsConfig = testsConfig) {

@@ -4,10 +4,6 @@ import com.dmirosh.aoc2021.day5.Line.Companion.toLine
 import com.dmirosh.aoc2021.day5.Point
 import com.dmirosh.aoc2021.util.Task
 
-fun main() {
-    Day5Task2().solve()
-}
-
 class Day5Task2(
     name: String = "Day 5 task 2",
     testsConfig: Map<String, Int> = mapOf(
